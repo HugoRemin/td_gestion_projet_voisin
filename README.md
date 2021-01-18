@@ -25,3 +25,6 @@ inspect donne des information sur un deployement
 1.15 `vercel secret add username hugo` puis ` vercel env add secret USERNAME production` en donnant le secret username après
 
 1.16 Vercel met à dispostion 3 types : Production, Preview et Development. Plusieurs environnement permet de separer les variables en fonction de l'avancer du porjet. Parexemple un variable development sert pendant le developement et une fois le developement finis prends sa valeur definitive dans prodution. Par exemple un chemin de base de données qui change en fonciton de si on developpe ou si l'application est finie.
+
+1.18 https://github.com/HugoRemin/td_gestion_projet_voisin
+
