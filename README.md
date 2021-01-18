@@ -30,5 +30,8 @@ inspect donne des information sur un deployement
 
 1.19 Une pull request permet de travailler à coté de la branche fonctionnelle et d'ensuite demander une fusion au gérant de la branche principale
 
+![vercel_pull_request](https://user-images.githubusercontent.com/74649302/104926978-2331b900-59a1-11eb-881b-c0b029fb0602.PNG)
 
+Vercel deploie automatiquement la pull request et c'est l'environement preview qui est activé.
 
+1.20
