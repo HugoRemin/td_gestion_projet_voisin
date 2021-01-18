@@ -34,4 +34,4 @@ inspect donne des information sur un deployement
 
 Vercel deploie automatiquement la pull request et c'est l'environement preview qui est activé.
 
-1.20
+1.20 Vercel deploie automatiquement la branche fusionée dans l'environnement production.
