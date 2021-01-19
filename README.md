@@ -35,3 +35,18 @@ inspect donne des information sur un deployement
 Vercel deploie automatiquement la pull request et c'est l'environement preview qui est activé.
 
 1.20 Vercel deploie automatiquement la branche fusionée dans l'environnement production.
+
+1.21
+L'environemment de production correspond à la branche principale du git.
+
+Utiliser des pull request permet de developper un paralelle sans se soucier des conflits avec la branche principale lors d'un push.
+
+Un feature commence à petre developper en créant une nouvelle branche au git. Le vercel la passe en environnement development. Lorsque que la feature est finie un effectue une pull request qui fait passer à l'environemment preview. Et enfin la pull request est acceptée et la nouvelle branche fusionne avec la branche pirncipale ce qui passe la feature à l'environnement production.
+
+1.22
+
+Le serverless c'est quand un fournisseur de cloud fournit les ressources à la demande aux application. Malgrès son nom le serverless utilise des serveurs c'est que le devellopeur n'a pas à gerer les serveurs. Le premier interret est que celà facilite le passage d'une application en production. De plus le coût est généralement moins élévées que de créer ses propres serveurs.
+
+
+
+
